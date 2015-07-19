@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E4E06A21B5BB0DF000178BD /* ShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4E06A11B5BB0DF000178BD /* ShowViewController.m */; };
 		3EE8512B1B5A602300DE5105 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EE8512A1B5A602300DE5105 /* main.m */; };
 		3EE8512E1B5A602300DE5105 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EE8512D1B5A602300DE5105 /* AppDelegate.m */; };
 		3EE851311B5A602300DE5105 /* SqlNoteBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3EE8512F1B5A602300DE5105 /* SqlNoteBook.xcdatamodeld */; };
@@ -15,6 +16,9 @@
 		3EE851391B5A602300DE5105 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EE851381B5A602300DE5105 /* Images.xcassets */; };
 		3EE8513C1B5A602300DE5105 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EE8513A1B5A602300DE5105 /* LaunchScreen.xib */; };
 		3EE851481B5A602300DE5105 /* SqlNoteBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EE851471B5A602300DE5105 /* SqlNoteBookTests.m */; };
+		3EE851531B5A62F100DE5105 /* 森林少女.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3EE851521B5A62F100DE5105 /* 森林少女.jpg */; };
+		3EE851561B5A6F2200DE5105 /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EE851551B5A6F2200DE5105 /* EditViewController.m */; };
+		3EE851581B5A908800DE5105 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EE851571B5A908800DE5105 /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E4E06A01B5BB0DF000178BD /* ShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowViewController.h; sourceTree = "<group>"; };
+		3E4E06A11B5BB0DF000178BD /* ShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowViewController.m; sourceTree = "<group>"; };
 		3EE851251B5A602300DE5105 /* SqlNoteBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SqlNoteBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EE851291B5A602300DE5105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EE8512A1B5A602300DE5105 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +48,10 @@
 		3EE851411B5A602300DE5105 /* SqlNoteBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SqlNoteBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EE851461B5A602300DE5105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EE851471B5A602300DE5105 /* SqlNoteBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SqlNoteBookTests.m; sourceTree = "<group>"; };
+		3EE851521B5A62F100DE5105 /* 森林少女.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "森林少女.jpg"; sourceTree = "<group>"; };
+		3EE851541B5A6F2200DE5105 /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		3EE851551B5A6F2200DE5105 /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
+		3EE851571B5A908800DE5105 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EE851581B5A908800DE5105 /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,10 +98,15 @@
 				3EE8512D1B5A602300DE5105 /* AppDelegate.m */,
 				3EE851321B5A602300DE5105 /* ViewController.h */,
 				3EE851331B5A602300DE5105 /* ViewController.m */,
+				3EE851541B5A6F2200DE5105 /* EditViewController.h */,
+				3EE851551B5A6F2200DE5105 /* EditViewController.m */,
+				3E4E06A01B5BB0DF000178BD /* ShowViewController.h */,
+				3E4E06A11B5BB0DF000178BD /* ShowViewController.m */,
 				3EE851351B5A602300DE5105 /* Main.storyboard */,
 				3EE851381B5A602300DE5105 /* Images.xcassets */,
 				3EE8513A1B5A602300DE5105 /* LaunchScreen.xib */,
 				3EE8512F1B5A602300DE5105 /* SqlNoteBook.xcdatamodeld */,
+				3EE851511B5A60FD00DE5105 /* Images */,
 				3EE851281B5A602300DE5105 /* Supporting Files */,
 			);
 			path = SqlNoteBook;
@@ -99,6 +115,7 @@
 		3EE851281B5A602300DE5105 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3EE851571B5A908800DE5105 /* libsqlite3.dylib */,
 				3EE851291B5A602300DE5105 /* Info.plist */,
 				3EE8512A1B5A602300DE5105 /* main.m */,
 			);
@@ -120,6 +137,14 @@
 				3EE851461B5A602300DE5105 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3EE851511B5A60FD00DE5105 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3EE851521B5A62F100DE5105 /* 森林少女.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +227,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EE851531B5A62F100DE5105 /* 森林少女.jpg in Resources */,
 				3EE851371B5A602300DE5105 /* Main.storyboard in Resources */,
 				3EE8513C1B5A602300DE5105 /* LaunchScreen.xib in Resources */,
 				3EE851391B5A602300DE5105 /* Images.xcassets in Resources */,
@@ -226,6 +252,8 @@
 				3EE8512E1B5A602300DE5105 /* AppDelegate.m in Sources */,
 				3EE851341B5A602300DE5105 /* ViewController.m in Sources */,
 				3EE8512B1B5A602300DE5105 /* main.m in Sources */,
+				3EE851561B5A6F2200DE5105 /* EditViewController.m in Sources */,
+				3E4E06A21B5BB0DF000178BD /* ShowViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +448,7 @@
 				3EE8514D1B5A602300DE5105 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3EE8514E1B5A602300DE5105 /* Build configuration list for PBXNativeTarget "SqlNoteBookTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +457,7 @@
 				3EE851501B5A602300DE5105 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

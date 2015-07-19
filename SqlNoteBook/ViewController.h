@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "EditViewController.h"
+#import "ShowViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UIImagePickerControllerDelegate , UINavigationControllerDelegate>
 
+@property (strong, nonatomic) UIImageView *bgView;
+@property (strong, nonatomic) UIButton *addButton;
+@property (strong, nonatomic) UIButton *showButton;
 
 @end
 

@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "sqlite3.h"
 
 @interface EditViewController : UIViewController
+
+@property (strong, nonatomic) NSMutableArray *textFields;
+@property (strong, nonatomic) UIButton *addButton;
 
 @end
